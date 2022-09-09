@@ -1,14 +1,14 @@
 Casal2
 Call: C:\Users\niwauser\Casal2\BuildSystem\Casal2\casal2.exe -E mpd.out -o params_est.out
-Date: Tue Aug 30 14:53:04 2022
-Seed: 27983
-Version: v22.08 (2022-08-29)
+Date: Fri Sep 09 10:39:18 2022
+Seed: 76758
+Version: v22.09 (2022-09-08)
 Copyright (c) 2017-2022, NIWA (www.niwa.co.nz)
-Environment: User=niwauser Machine=NIWA-COMPUTER OS=Windows_NT PID=18640
+Environment: User=niwauser Machine=NIWACOMPUTER OS=Windows_NT PID=9592
 
 
 
-[INFO] Setting the random number seed to 27983
+[INFO] Setting the random number seed to 76758
 [INFO] Estimable parameters were loaded from the free parameter file:
 [WARNING] obs sum total (1.0001) for year (1979) doesn't sum to 1.0
 [WARNING] obs sum total (1.0002) for year (1980) doesn't sum to 1.0
@@ -7617,7 +7617,7 @@ Values {vector}
 
 *info[messages_encountered]
 Values {string}
-Setting the random number seed to 27983
+Setting the random number seed to 76758
 Estimable parameters were loaded from the free parameter file:
 Creating default report for catchability TangaroaMatureq
 Creating default report for catchability TangaroaImmatureq
@@ -7682,4 +7682,4 @@ estimated parameter 'observation[TangaroaAcousticMature].process_error' was with
 *end
 
 [INFO] Completed
-[INFO] Total elapsed time: 18 seconds
+[INFO] Total elapsed time: 39 seconds

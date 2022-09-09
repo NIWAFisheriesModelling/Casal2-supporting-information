@@ -1,14 +1,14 @@
 Casal2
 Call: C:\Users\niwauser\Casal2\BuildSystem\Casal2\casal2.exe -E mpd.out -o params_est.out
-Date: Tue Aug 30 14:35:17 2022
-Seed: 26917
-Version: v22.08 (2022-08-29)
+Date: Fri Sep 09 10:58:37 2022
+Seed: 77917
+Version: v22.09 (2022-09-08)
 Copyright (c) 2017-2022, NIWA (www.niwa.co.nz)
-Environment: User=niwauser Machine=NIWA-COMPUTER OS=Windows_NT PID=19296
+Environment: User=niwauser Machine=NIWACOMPUTER OS=Windows_NT PID=8452
 
 
 
-[INFO] Setting the random number seed to 26917
+[INFO] Setting the random number seed to 77917
 [INFO] Estimable parameters were loaded from the free parameter file: 
 [WARNING] obs sum total (1.00001) for year (2010) doesn't sum to 1.0
 [WARNING] obs sum total (0.99997) for year (2014) doesn't sum to 1.0
@@ -3286,7 +3286,7 @@ Values {vector}
 
 *info[messages_encountered]
 Values {string}
-Setting the random number seed to 26917
+Setting the random number seed to 77917
 Estimable parameters were loaded from the free parameter file: 
 Creating default report for catchability potSurveyq
 Creating default report for catchability potCPUEq
@@ -3335,4 +3335,4 @@ Estimates were removed because of matching lower and upper bounds. Originally ha
 *end
 
 [INFO] Completed
-[INFO] Total elapsed time: 3.15 minutes
+[INFO] Total elapsed time: 4.55 minutes

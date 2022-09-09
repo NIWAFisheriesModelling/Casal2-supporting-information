@@ -1,14 +1,14 @@
 Casal2
 Call: C:\Users\niwauser\Casal2\BuildSystem\Casal2\casal2.exe -E mpd.out -o params_est.out
-Date: Tue Aug 30 14:28:08 2022
-Seed: 26488
-Version: v22.08 (2022-08-29)
+Date: Fri Sep 09 10:45:32 2022
+Seed: 77132
+Version: v22.09 (2022-09-08)
 Copyright (c) 2017-2022, NIWA (www.niwa.co.nz)
-Environment: User=niwauser Machine=NIWA-COMPUTER OS=Windows_NT PID=16884
+Environment: User=niwauser Machine=NIWACOMPUTER OS=Windows_NT PID=4508
 
 
 
-[INFO] Setting the random number seed to 26488
+[INFO] Setting the random number seed to 77132
 [INFO] Estimable parameters were loaded from the free parameter file:
 resizing from 40000 to 44000
 resizing from 44000 to 48400
@@ -12345,7 +12345,7 @@ Values {vector}
 
 *info[messages_encountered]
 Values {string}
-Setting the random number seed to 26488
+Setting the random number seed to 77132
 Estimable parameters were loaded from the free parameter file:
 Creating default report for catchability CPUE-Commercialq_1
 Creating default report for catchability TrawlSurveyq_1
@@ -12404,4 +12404,4 @@ Setting 'params_est.out' as the output file for the free parameters
 *end
 
 [INFO] Completed
-[INFO] Total elapsed time: 2.617 minutes
+[INFO] Total elapsed time: 3.8 minutes
