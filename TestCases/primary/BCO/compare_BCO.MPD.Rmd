@@ -140,17 +140,26 @@ for (c in 1:num_C2_models)
 {
     print(paste('Catch time series base model comparison for run', C2_subdir[c]))
 
+    print(paste('Actual catches / Retained catch for line match:',
+                time_series_match(c1_quant$actual_catches$line, cas2_mpd[[c]]$Fishing$`retained_catch[FishingLine]`)))
+
     print(paste('Removals / Actual catches for line match:',
                 time_series_match(c1_quant$removals$line, cas2_mpd[[c]]$Fishing$`actual_catch[FishingLine]`)))
 
     print(paste('Discarded catches for line match:',
                 time_series_match(c1_quant$discards$line, cas2_mpd[[c]]$Fishing$`discards[FishingLine]`)))
 
+    print(paste('Actual catches / Retained catch for pot match:',
+                time_series_match(c1_quant$actual_catches$pot, cas2_mpd[[c]]$Fishing$`retained_catch[FishingPot]`)))
+
     print(paste('Removals / Actual catches for pot match:',
                 time_series_match(c1_quant$removals$pot, cas2_mpd[[c]]$Fishing$`actual_catch[FishingPot]`)))
 
     print(paste('Discarded catches for pot match:',
                 time_series_match(c1_quant$discards$pot, cas2_mpd[[c]]$Fishing$`discards[FishingPot]`)))
+
+    print(paste('Actual catches / Retained catch for rec match:',
+                time_series_match(c1_quant$actual_catches$rec, cas2_mpd[[c]]$Fishing$`retained_catch[Recreation]`)))
 
     print(paste('Removals / Actual catches for rec match:',
                 time_series_match(c1_quant$removals$rec, cas2_mpd[[c]]$Fishing$`actual_catch[Recreation]`)))
